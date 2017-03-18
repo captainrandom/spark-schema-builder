@@ -1,4 +1,6 @@
 *.class
+.idea/
+schema_builder/schema_builder.iml
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
