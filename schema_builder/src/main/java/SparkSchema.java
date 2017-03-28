@@ -2,7 +2,8 @@ import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 
 /**
- * Created by markjackson on 3/18/17.
+ * An annotation to help determine non-default serialization/deserialization parameters in the SparkSchema for a given
+ * object. Please see {@link SchemaBuilder}
  */
 @Retention(RetentionPolicy.RUNTIME)
 public @interface SparkSchema {

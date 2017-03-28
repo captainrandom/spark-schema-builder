@@ -13,8 +13,11 @@ import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
+
 /**
- * Created by markjackson on 3/18/17.
+ * Builds a Spark schema from a POJO using reflection.
+ *
+ * Please note that this does not support complex types.
  */
 public class SchemaBuilder {
 
